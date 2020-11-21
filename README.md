@@ -5,10 +5,12 @@ A collection of sample interview questions to ask engineers.
 
 ### String Encoding
 Build a function that takes as input a string of letters and returns an encoded version of the string. The encoding scheme converts letters regardless of case, that appear once in the string to the '#' character and letters that appear more than once to the '&' character. Each letter should be encoded according to this scheme. The following strings and their conversions are provided as examples.
-Input -> Output
-one ->  ###
-three -> ###&&
-Heartbreak hotel -> &&&&&#&&&##&#&&#
+
+|Input -> Output|
+| --- |
+|one ->  ###|
+|three -> ###&&|
+|Heartbreak hotel -> &&&&&#&&&##&#&&#|
 
 ```python
 def duplicate_encode(word):
